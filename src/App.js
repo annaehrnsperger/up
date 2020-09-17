@@ -1,5 +1,3 @@
-/* eslint-disable global-require */
-/* eslint-disable no-plusplus */
 import React, { useState } from 'react';
 import ReactFullpage from '@fullpage/react-fullpage';
 import styled from 'styled-components';

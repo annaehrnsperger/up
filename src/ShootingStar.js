@@ -20,7 +20,6 @@ const ShootingStar = ({ startX, startY, delay }) => {
   };
 
   return (
-    // eslint-disable-next-line react/self-closing-comp
     <StyledShootingStar
       variants={shootingStar}
       initial="start"
