@@ -27,6 +27,7 @@ function App() {
       pluginWrapper={pluginWrapper}
       scrollingSpeed={1500}
       dragAndMove={fullpageDrag && window.innerWidth < 768}
+      dragAndMoveKey={process.env.REACT_APP_DRAGMOVE_KEY}
       render={() => (
         <div id="fullpage-wrapper">
           <StyledSectionThree className="section">
